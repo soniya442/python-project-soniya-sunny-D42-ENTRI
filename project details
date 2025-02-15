@@ -1,0 +1,68 @@
+ Employee Data Analysis - Python Project
+
+    Project Overview
+This project analyzes an employee dataset from **ABC Company** to gain insights into workforce distribution, salary trends, and correlations. The analysis includes **data preprocessing, exploratory data analysis (EDA), and visualizations** to effectively present the findings.
+
+---
+
+## 🔹 Dataset Information
+- **Rows:** 458
+- **Columns:** 9
+- **Contains employee details such as:** Team, Position, Age, Salary, Height, etc.
+
+---
+
+## 🔹 Preprocessing Steps
+✅ **Handled Missing Values:**
+- Replaced missing salary values with the **median salary**.
+- Filled missing categorical values with **'Unknown'**.
+
+✅ **Fixed Incorrect Data:**
+- Height values were replaced with **random numbers between 150 and 180 cm**.
+
+✅ **Ensured Data Consistency:**
+- Checked and removed **duplicate values**.
+- Verified data types and corrected where needed.
+
+---
+
+## 🔹 Analysis Tasks & Visualizations
+
+### **1️⃣ Employee Distribution Across Teams**
+- Counted the number of employees in each team.
+- Used a **bar chart** to visualize the distribution.
+- **Insight:** Some teams have significantly more employees than others.
+
+### **2️⃣ Employee Segregation Based on Positions**
+- Categorized employees by job positions.
+- Used a **pie chart** to show the proportion of each role.
+- **Insight:** Some positions have fewer employees, indicating possible hiring gaps.
+
+### **3️⃣ Predominant Age Group Among Employees**
+- Grouped employees into age categories (18-25, 26-35, etc.).
+- Used a **bar chart** to identify the most common age group.
+- **Insight:** The **26-35 age group** is the largest, indicating a younger workforce.
+
+### **4️⃣ Team & Position with Highest Salary Expenditure**
+- Calculated total salary distribution across teams and positions.
+- Used **bar charts** to visualize the expenditure.
+- **Insight:** The **highest-paid team and position** consume a major portion of the salary budget.
+
+### **5️⃣ Correlation Between Age and Salary**
+- Examined if age influences salary levels.
+- Used a **scatter plot** and calculated the correlation coefficient.
+- **Insight:** There is a **moderate positive correlation**, suggesting experience plays a role in salary.
+
+---
+
+## 📊 Visualizations
+Each of the above tasks includes **appropriate visualizations** using **Matplotlib and Seaborn** for better data interpretation.
+
+ Project Insights 
+✅ Some teams have **disproportionately high** employee counts, which may affect workload balance.
+✅ Certain job positions appear **understaffed**, requiring further recruitment.
+✅ The **salary distribution is concentrated** in a few high-paying teams and roles.
+✅ There is **a moderate correlation between age and salary**, indicating that experience affects pay but is not the only factor.
+
+
+------------------------------------------------------------------------------------------------------
